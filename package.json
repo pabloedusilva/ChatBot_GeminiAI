@@ -1,26 +1,27 @@
 {
-  "name": "chatbot_beta",
-  "version": "1.0.0",
-  "description": "",
-  "main": "chatbot.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pabloedusilva/ChatBot_Beta.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pabloedusilva/ChatBot_Beta/issues"
-  },
-  "homepage": "https://github.com/pabloedusilva/ChatBot_Beta#readme",
-  "dependencies": {
-    "axios": "^1.9.0",
-    "express": "^5.1.0",
-    "qrcode": "^1.5.4",
-    "whatsapp-web.js": "^1.28.0"
-  }
+    "name": "chatbot_beta",
+    "version": "1.0.0",
+    "description": "",
+    "main": "chatbot.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pabloedusilva/ChatBot_Beta.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/pabloedusilva/ChatBot_Beta/issues"
+    },
+    "homepage": "https://github.com/pabloedusilva/ChatBot_Beta#readme",
+    "dependencies": {
+        "axios": "^1.9.0",
+        "dotenv": "^16.5.0",
+        "express": "^5.1.0",
+        "qrcode": "^1.5.4",
+        "whatsapp-web.js": "^1.28.0"
+    }
 }
