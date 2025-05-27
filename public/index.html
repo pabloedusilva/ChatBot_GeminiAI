@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WhatsApp QR Code</title>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <button class="theme-toggle" id="theme-toggle">
+                <div class="theme-icon">
+                    <!-- O ícone será carregado pelo JavaScript -->
+                </div>
+            </button>
+
+            <div class="logo">
+                <i class="fab fa-whatsapp"></i>
+                <h1>WhatsApp QR Code</h1>
+            </div>
+
+            <!-- Indicador de status de conexão -->
+            <div class="connection-status">
+                <span class="status-indicator"></span>
+                <span class="status-text">NÃO CONECTADO</span>
+            </div>
+
+            <div id="qrcode-container">
+                <div class="scan-animation"></div>
+                <img id="qrcode" src alt="QR Code">
+            </div>
+
+            <div class="status-container">
+                <p id="status">Aguardando QR Code<span
+                        class="loading-dots"><span></span><span></span><span></span></span></p>
+            </div>
+
+            <p class="info-text">Escaneie o código QR com seu WhatsApp para
+                conectar sua conta</p>
+        </div>
+
+        <script src="js/index.js"></script>
+
+        <div class="footer">
+            By Pablo
+        </div>
+    </body>
+</html>

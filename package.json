@@ -1,19 +1,26 @@
 {
-  "name": "whatsapp-gemini-bot",
+  "name": "chatbot_beta",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "chatbot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabloedusilva/ChatBot_Beta.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "bugs": {
+    "url": "https://github.com/pabloedusilva/ChatBot_Beta/issues"
+  },
+  "homepage": "https://github.com/pabloedusilva/ChatBot_Beta#readme",
   "dependencies": {
-    "@google/generative-ai": "^0.24.1",
-    "body-parser": "^2.2.0",
+    "axios": "^1.9.0",
     "express": "^5.1.0",
-    "qrcode-terminal": "^0.12.0",
+    "qrcode": "^1.5.4",
     "whatsapp-web.js": "^1.28.0"
   }
 }
