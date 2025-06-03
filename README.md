@@ -136,6 +136,16 @@ ChatBot_Beta/
 **4. Como trocar a chave da API Gemini?**
 - Edite `config/config.json` ou defina a variável de ambiente `GOOGLE_API_KEY`.
 
+## Galeria
+![image](https://github.com/user-attachments/assets/f2bd5e17-13f5-414e-af9b-942f02696578)
+---
+![image](https://github.com/user-attachments/assets/70368ec8-9322-4fe9-b953-92696a473149)
+---
+![image](https://github.com/user-attachments/assets/f5a7e511-dff4-49d3-b927-e6a52c690b28)
+
+
+
+
 ## Contribuição
 Contribuições são bem-vindas! Abra issues ou pull requests.
 
